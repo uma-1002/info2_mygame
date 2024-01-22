@@ -3,7 +3,7 @@ import pyxel
 class App:
     def __init__(self):
         pyxel.init(200,200)
-        pyxel.load("assets/mygame.pyxres")
+        pyxel.load("mygame.pyxres")
         self.ball = Ball()
         self.keeper = Keeper()
         self.team1score = 0
